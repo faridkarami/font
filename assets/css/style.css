@@ -1,0 +1,68 @@
+@import url('./font.css');
+
+* {
+    font-family: 'NatoSans';
+}
+
+.form {
+    text-align: center;
+}
+
+.form input {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+[class*='item'] {
+    border: 1px solid #888888;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.item-1 {
+    font-weight: 100;
+}
+
+.item-2 {
+    font-weight: 200;
+}
+
+.item-3 {
+    font-weight: 300;
+}
+
+.item-4 {
+    font-weight: 400;
+}
+
+.item-5 {
+    font-weight: 500;
+}
+
+.item-6 {
+    font-weight: 600;
+}
+
+.item-7 {
+    font-weight: 700;
+}
+
+.item-8 {
+    font-weight: 800;
+}
+
+.item-9 {
+    font-weight: 900;
+}
